@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+        <meta property=“og:title” content=“Creamchagok 블로그” />
+        <meta property=“og:description” content=“Creamchagok 블로그에 오신걸 환영합니다!” />
+        <meta property=“og:image” content=“크림이.png” />
+        <title>Creamchagok 블로그</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+          body {
+            background-image: url('제주.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+          } 
+          .box{
+            position: absolute;
+
+            width:  300px;
+            height: 125px;
+            background-color: hsla(0, 27%, 96%, 0.3);
+            background-position: center;
+            top: 15px; 
+            margin: 4px;
+
+          } 
+          .profile {
+
+            position: relative;
+
+            width:  100px;
+            height: 100px;
+
+            background-color: green;
+            border-radius: 100%;
+
+            border : 2px solid white;
+
+            background-image: url('크림이.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat:space;
+          }
+
+
+
+          .main {
+            width:  300px;
+            height: 50px;
+
+            background-color: hsla(0, 27%, 96%, 0.3);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+
+            color: white;
+            font-size: 20px;
+
+            margin-top: 10px;
+            margin-bottom: 10px; 
+            margin-bottom: 10px;
+          }
+
+          .sub {
+            color: white;
+            font-size: 14px;
+            margin-top: 0px;
+          }
+
+          .wrap {
+    
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
+
+          .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color:#44398A;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+
+
+
+        
+
+          }
+          .wrap > a:hover {
+            background-color: #f2f2f2;
+          }
+
+
+        </style>
+    </head>
+    <body>
+      
+        <div class="wrap">
+            <div class="box"></div>
+            <div class="profile"></div>
+            <h1 class="main">Creamchagok</h1>
+            <P Class="sub">반려견 크림이와 추억을 차곡차곡:)</P>
+            <a target="_blank" href="https://blog.naver.com/dkwls2784">Creamchagok 블로그</a>
+            <a target="_blank" href="https://www.instagram.com/creamchagok/">Creamchagok 인스타그램</a>
+            <a target="_blank" href="https://blog.naver.com/dkwls2784/222672176937">Creamchagok 제주여행</a>
+            <a target="_blank" href="https://blog.naver.com/dkwls2784/222817027885">Creamchagok 강릉여행</a>
+
+        </div>
+       
+    </body>
+</html>
